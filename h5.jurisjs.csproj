@@ -1,0 +1,11 @@
+<Project Sdk="h5.Target/25.7.59954">
+    <PropertyGroup>
+        <DebugType>None</DebugType>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="h5" Version="25.5.58366" />
+    </ItemGroup>
+    <Target Name="libman" BeforeTargets="Restore">
+        <Exec Command="dotnet tool exec Microsoft.Web.LibraryManager.Cli restore" />
+    </Target>
+</Project>

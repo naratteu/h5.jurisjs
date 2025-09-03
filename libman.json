@@ -1,0 +1,10 @@
+{
+  "version": "3.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "juris@0.9.0",
+      "destination": "lib/juris"
+    }
+  ]
+}

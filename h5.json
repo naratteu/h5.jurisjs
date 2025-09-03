@@ -1,0 +1,10 @@
+{
+  "resources": [
+    {
+      "name": "juris.js",
+      "files": [
+        "lib/juris/juris.js"
+      ]
+    }
+  ]
+}
